@@ -5,11 +5,11 @@ const slide = document.getElementById("slide");
 const music = document.getElementById("bgMusic");
 
 const images = [
-  "images/pic1.jpg",
-  "images/pic2.jpg",
-  "images/pic3.jpg",
-  "images/pic4.jpg",
-  "images/pic5.jpg"
+  "pic1.jpg",
+  "pic2.jpg",
+  "pic3.jpg",
+  "pic4.jpg",
+  "pic5.jpg"
 ];
 
 let current = 0;
