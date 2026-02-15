@@ -60,3 +60,31 @@ body {
 .hidden {
   display: none;
 }
+
+#heartContainer {
+  position: relative;
+  font-size: 120px;
+  cursor: pointer;
+  user-select: none;
+}
+
+#heart {
+  transition: transform 0.15s ease;
+}
+
+#cracks {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.crack-line {
+  position: absolute;
+  width: 4px;
+  height: 60%;
+  background: white;
+  opacity: 0.8;
+  transform: rotate(15deg);
+  top: 20%;
+  left: 50%;
+}
