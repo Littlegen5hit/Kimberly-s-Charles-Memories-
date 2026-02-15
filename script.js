@@ -20,7 +20,8 @@ const maxTaps = 6; // how many taps to break the heart
 
 heart.addEventListener("click", () => {
   taps++;
-
+heart.style.animation = "shake 0.15s";
+setTimeout(() => heart.style.animation = "", 150);
   heart.style.transform = `scale(${1 - taps * 0.05}) rotate(${taps * 2}deg)`;
 
   const crack = document.createElement("div");
